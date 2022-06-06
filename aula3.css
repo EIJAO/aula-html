@@ -1,0 +1,24 @@
+
+
+
+
+
+h1 {
+    color: red;
+}
+
+.titulo {
+    color: green;
+    text-decoration: overline;
+}
+
+
+#capitulo {
+    color:blueviolet;
+    font-size: 30px;
+}
+
+
+.titulo h1 {
+    background-color: gray;
+}

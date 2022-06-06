@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.menu {
+    font-size: 45px;
+    color: rgb(253, 253, 117);
+    background-color: black;
+
+    padding: 15px;
+    width: 120px;
+    display: inline;
+}
+
+.pagina {
+    padding-left: 15px;
+    font-size: 45pt;
+    color: rgb(245, 109, 150);
+    background-color: rgb(29, 26, 39);
+    margin-left: 10px;
+    display: inline-block;
+    width: 350px;
+    height: 80px;
+    
+}
+.pagina:hover {
+    color: blue;
+    font-size: 65px;
+    cursor:progress;
+}
+
+h1 {
+    color: rgb(182, 182, 182);
+    font-size: 45px;
+    background-color: rgb(75, 75, 75);
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.god {
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(238, 255, 1);
+    font-size: 2em;
+    background-color: rgb(98, 18, 105)
+    }
+
+.a2 {
+    color: crimson;
+    font-size: 35px;
+    margin-left: 30px;
+    background-color: darkgrey;
+    border-color: blueviolet 3px solid;
+    
+}
+
+.menu:hover {
+    color: blue;
+    font-size: 65px;
+    cursor: crosshair;
+}
