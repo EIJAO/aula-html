@@ -34,20 +34,51 @@
 
   //exercicio 1
   // pepça 2 numeros e retorne o maior
-
-
-var x = prompt("digite um numero");
-var y = prompt("digite o segundo numero");
-var z = prompt("digite o terceiro numero");
-
-if (x > y)
-{
-    console.log(x);
-}
-else (x < y)
-{
-    console.log(y);
-}
-
-
 //peça 3 nuumeros e dizer o maior e tambem o menor 
+
+var num1 = prompt("Digite o num 1");
+var num2 = prompt("Digite o num 2");
+var num3 = prompt("Digite o num 3");
+
+// Maior
+if (num1 > num2)
+{   
+    if (num1 > num3)
+    {
+        console.log("O numero: " + num1 + " é o maior");
+    } else
+    {
+        console.log("O numero: " + num3 + " é o maior");
+    }
+} else 
+{
+    if (num2 > num3)
+    {
+        console.log("O numero: " + num2 + " é o maior");
+    } else 
+    {
+        console.log("O numero: " + num3 + " é o maior");
+    }
+}
+
+// Menor
+if (num1 < num2)
+{
+    if (num1 < num3 )
+    {
+        console.log("O numero: " + num1 + " é o menor");
+    } else 
+    {
+        console.log("O numero: " + num3 + " é o menor");
+    }
+    
+} else 
+{
+    if (num2 < num3)
+    {
+        console.log("O numero: " + num2 + " é o menor");
+    } else
+    {
+        console.log("O numero: " + num3 + " é o menor");
+    }
+}
